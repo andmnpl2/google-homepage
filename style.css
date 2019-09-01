@@ -55,12 +55,13 @@ body {
 	width: 269px;
 	height: 95px;
 	clear: both;
-	padding-top: 112px;
+	padding-top: 120px;
 	padding-bottom: 10px;
 	margin: 0 auto;
 }
 
 input[type="Search"]{
+	color: #5F6368;
 	width: 566px;
 	padding: 10px;
 	margin: 25px 0 18px 0;
@@ -90,25 +91,47 @@ input[type="submit"]:hover {
 	cursor: pointer;
 }
 
+.offered{
+	padding-top: 25px;
+}
+
+.offered a{
+	color: rgb(26, 13, 171);
+	text-decoration: none;
+}
+
+.offered a:hover {
+	text-decoration: underline;
+}
 footer{
 	position:absolute;
 	bottom:0;
 	width:100%;
-	color: #333;
-	height:40px;
+	color: #5F6368;
+	height:80px;
 	background-color: rgb(242, 242, 242);
+	border-top: 1px solid #e4e4e4;
+	align-content: center;
 }
 
+footer #country{
+	font-size: 15px;
+	align-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	padding-left: 20px;
+	border-bottom: 1px solid #e4e4e4;
+}
 
 #footer_left{
 	float: left;
 	display: inline-flex;
-}
+	}
 
 #footer_left li{
 	padding-top: 15px;
 	padding-right: 20px;
-	padding-left: 10px;
+	padding-left: 20px;
 	list-style: none;
 }
 
@@ -119,7 +142,7 @@ footer{
 #footer_right{
 	float: right;
 	display: inline-flex;
-}
+	}
 
 #footer_right li{
 	padding-top: 15px;
