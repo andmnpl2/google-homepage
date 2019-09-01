@@ -35,7 +35,7 @@ body {
 	text-decoration: underline;
 }
 
-.nav_bar #sing_in {
+.nav_bar #sign_in {
 	background: #4887ef; 
   	margin-right: 25px;
   	padding: 7px 15px;
@@ -147,7 +147,7 @@ footer #country{
 #footer_right li{
 	padding-top: 15px;
 	padding-left: 20px;
-	padding-right: 10px;
+	padding-right: 20px;
 	list-style: none;
 }
 
